@@ -1,0 +1,181 @@
+*,::after,::before{
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Inter", "sans-serif";
+}
+body{
+    background-color:  #E9ECF8;
+    /* overflow: hidden; */
+}
+.contenedor-hijo{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 3rem auto;
+    gap: 2rem;
+    width: 80%;
+    height: 43.75rem;
+    border: 2px solid #0A3871;
+    border-radius: 20px;
+    position: relative;
+    min-width: 350px;
+    max-width: 1200px;
+}
+
+.logo{
+    margin: 1.563rem;
+}
+
+.contenedor__salida-datos{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    background-color: white;
+    width: 23rem;
+    height: 41.25rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    margin: auto;
+    margin-right: 1rem;
+    gap: .5rem;
+    position: relative;
+    min-width: 300px;
+
+}
+
+.copiar{
+    position: absolute;
+    top: 35.75rem;
+    left: 4rem;
+    
+}
+
+
+p{
+    text-align: center;
+    margin-top: 3.125rem;
+    font-size: 1.25rem;
+    color: #4c5866ea;
+    padding: .625rem;
+    overflow-wrap: break-word;
+}
+
+.form-boton{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    position: absolute;
+    top: 36.875rem;
+    left: 9.375rem;
+}
+
+input:nth-of-type(2):hover, .copiar:hover{
+    background-color: #0A3871;
+    color: white;
+}
+
+input:nth-of-type(2):active,.copiar:active{
+    background-color: #0a3871c5;
+    color: white;
+}
+
+
+.encriptar,.boton{
+    background-color: transparent;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 15rem;
+    height: 3.75rem;
+    color: rgb(28, 80, 158);
+    font-size: 22px;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    color: white;
+    border: none;
+}
+
+.encriptar:active{
+    background-color: #0a3871be;
+    
+}
+
+#muneco{
+    padding-left: 2rem;
+    padding-top: 2.188rem;
+    transition: opacity 1s;
+}
+
+
+.entrada-de-datos{
+    display: flex;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #0A3871;
+    top: 7.5rem;
+    left: 6.25rem;
+    outline: none;
+    border: none;
+    width: 37.5rem;
+    height: 28.125rem;
+    background-color: #E9ECF8;
+    resize: none;
+}
+.contenerdor__entrada-datos{
+    position: relative;
+}
+.label{
+    display: flex;
+    gap: 5px;
+    width: 21.875rem;
+    height: 2rem;
+    position: absolute;
+    top: 35.313rem;
+    left: 9.7rem;
+}
+
+.condicion{
+    padding: 0;
+    margin: 0;
+    font-size: 0.75rem;
+}
+
+.contenedor-padre{
+    display: flex;
+}
+
+.pie{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0A3871;
+    position: relative;
+}
+
+.icons{
+    width: 2rem;
+    color: white;
+    text-decoration: none;
+    color: #E9ECF8;
+    
+}
+
+.contenedor-pie{
+    width: 120px;
+    height: 3rem;
+    display: flex;
+    gap: 1em;
+    margin: auto;
+}
+a{
+    margin: auto;
+}
+.about-me{
+    color: white;
+    margin: auto;
+}
+
+.icons:hover{
+    transform: scale(1.2);
+}
+
